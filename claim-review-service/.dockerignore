@@ -1,0 +1,8 @@
+target/
+.m2_repo/
+.mvn/
+mvnw
+mvnw.cmd
+settings.xml
+.env
+.env.*

@@ -1,0 +1,26 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Local development state and generated output
+/.m2_repo/
+/mysql-local-data/
+/my-local.ini
+/settings.xml
+frontend/dist/
+frontend/node_modules/
+backend/target/
+claim-review-service/target/
+
+# Maven caches and generated files
+**/.m2_repo/
+**/target/
+**/node_modules/
+**/dist/
