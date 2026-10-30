@@ -11,6 +11,6 @@ WORKDIR /app
 
 COPY --from=build /app/target/campus-claim-review-service-1.0.0.jar /app/app.jar
 
-EXPOSE 8081
+EXPOSE 10000
 
 ENTRYPOINT ["java", "-XX:MaxRAMPercentage=65.0", "-XX:+UseSerialGC", "-jar", "/app/app.jar"]
